@@ -1,0 +1,592 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    height: 110rem;
+    background-color: rgb(38, 39, 54);
+}
+/* .body {
+    width: 100%;
+    height: 100rem;
+    background-color: rgb(38, 39, 54);
+    z-index: 1;
+} */
+
+.upper {
+    width: 100%;
+    height: 45rem;
+    background-color: rgb(51, 57, 73);
+    z-index: 2;
+    top: 0%;
+}
+
+.end {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(51, 57, 73);
+    position: relative;
+    bottom: -70%;
+    z-index: 2;
+}
+
+
+
+
+
+
+.left {
+    position: absolute;
+    left: 5rem;
+    top: 4rem;
+    display: inline-block;
+}
+
+.left img {
+    width: 30px;
+    
+}
+
+.left div {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.2rem;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+
+
+
+
+.right {
+    position: absolute;
+    right: 6rem;
+    top: 4rem;
+    display: inline-block;
+    margin: auto
+}
+
+.right .int {
+    width: 25px;
+    filter: invert(100%);
+    position: absolute;
+    right: 8rem;
+    top: 0.7rem;
+}
+
+.right .icon {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    right: 4rem;
+    top: 0.2rem;
+}
+
+.right .bars {
+    filter: invert(100%);
+    width: 23px;
+    position: absolute;
+    right: 0rem;
+    top: 0.7rem;
+}
+
+
+
+
+.mid {
+    display: flex;
+    width: 50%;
+    margin: 40px auto;
+    /*border: 2px solid yellow;*/
+    justify-content: space-around;
+    left: 13%;
+    position: absolute;
+    top: 18px;
+  }
+  
+.navbar {
+    display: inline-block;
+  }
+  
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+.navbar li a {
+    color: darkgray;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: white;
+}
+
+
+
+.circle {
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    background-color: rgb(38, 39, 54);
+    border-radius: 50%;
+    top: 18%;
+    left: 30%;
+    z-index: 5;
+}
+
+.pic img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 580px;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    border-radius: 50% 20% 40% 50%;
+    z-index: 10;
+}
+
+
+
+.mid-left {
+    position: absolute;
+    left: 6rem;
+    top: 25%;
+    margin: auto;
+    z-index: 7;
+    line-height: 47px;
+}
+
+.mid-left h2 {
+    color: darkgray;
+    font-size: 50px;
+}
+
+.mid-left h1 {
+    font-size: 76px;
+    
+}
+
+.mid-left div {
+    background-color: rgb(214, 201, 9);
+    height: 5px;
+    width: 200px;
+}
+
+.mid-left p {
+    font-size: 20px;
+    color: darkgray;
+    line-height: 35px;
+    position: absolute;
+    left: 0rem;
+    top: 100%;
+}
+
+
+
+
+.mid-right {
+    position: absolute;
+    right: 7.5rem;
+    top: 25%;
+    z-index: 7;
+    line-height: 8px;
+    width: 520px;
+    
+}
+
+.mid-right h4 {
+    color: darkgray;
+    font-size: 20px;
+}
+
+.mid-right p {
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    position: absolute;
+    left: 0rem;
+    top: 50%;
+}
+
+.mid-right h5 {
+    color: rgb(214, 201, 9);
+    font-size: 15px;
+    position: absolute;
+    left: 0rem;
+    top: 270%;
+}
+
+
+
+
+
+
+.abc {
+    display: flex;
+    list-style-type: none;
+}
+
+.abc li .face img{
+    filter: invert(100%);
+    z-index: 11;
+    height: 37px;
+    width: 40px;
+    color: rgb(214, 201, 9);
+    position: relative;
+    top: 4px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.abc li .twi img{
+    filter: invert(100%);
+    z-index: 11;
+    height: 30px;
+    width: 30px;
+    color: rgb(214, 201, 9);
+    position: relative;
+    top: 2px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.abc li .insta img{
+    filter: invert(100%);
+    z-index: 11;
+    height: 30px;
+    width: 40px;
+    color: rgb(214, 201, 9);
+    position: relative;
+    top: 2.7px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.abc li .pin img{
+    filter: invert(100%);
+    z-index: 11;
+    height: 37px;
+    width: 40px;
+    color: rgb(214, 201, 9);
+    position: relative;
+    top: 4px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.abc li div {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    text-align: center;
+    line-height: 53px;
+    font-size: 38px;
+    border-radius: 50%;
+    background-color: rgb(102, 86, 86);
+}
+
+.logos {
+    position: absolute;
+    right: 13.4rem;
+    top: 320%;
+}
+
+
+
+
+
+
+
+.box- {
+    position: absolute;
+    width: 1100px;
+    height: 140px;
+    background-color: rgb(57, 64, 80);
+    top: 88%;
+    left: 14%;
+    z-index: 12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+.box- > div {
+    background-color: rgb(38, 39, 54);
+    width: 200px;
+    margin: 35px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;
+}
+
+.box- .a img {
+    width: 150px;
+    height: 40px;
+}
+
+.box- .b img {
+    width: 120px;
+    height: 30px;
+}
+
+.box- .c img {
+    width: 130px;
+    height: 30px;
+}
+
+.box- .d img {
+    width: 130px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.counter{
+    display: flex;
+    flex: 1 1 48rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 13;
+    position: absolute;
+    left: 2.5rem;
+    top: 120%;
+    flex-direction: row;
+    width: 32rem;
+    padding: 0rem;
+    line-height: 10px;
+    margin: 15px;
+}
+
+.counter h1 {
+    position: relative;
+    left: 2.3rem;
+    width: 450px;
+    line-height: 70px;
+    font-size: 50px;
+}
+
+.counter p {
+    position: relative;
+    left: 1.3rem;
+    font-size: 22px;
+    line-height: 35px;
+    color: darkgray;
+}
+
+.counter .box{
+    width: 10rem;
+    height: 5rem;
+    background: none;
+    text-align: start;
+    padding: 2rem;
+    margin: -0.2rem;
+    left: 2rem;
+}
+
+.counter .box span{
+    font-size: 3rem;
+    color: rgb(214, 201, 9);
+}
+
+.counter .box h3{
+    font-size: 1rem;
+    color: #fff;
+    display: inline-block;
+    color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+.xyz {
+    width: 42rem;
+    height: 35rem;
+    background-color: none;
+    position: absolute;
+    top: 122%;
+    right: 8rem;
+    
+}
+
+.xyz div img {
+    height: 160px;
+    width: 220px;
+}
+
+.xyz .pic-1, .pic-2, .pic-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.xyz div .cv {
+    position: relative;
+    top: 30px ;
+    left: 0px;
+    font-size: 26.5px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.xyz div .vc {
+    position: relative;
+    top: 80px ;
+    left: -205px;
+    font-size: 15px;
+    align-items: flex-start;
+    display: flex;
+    color: darkgray;
+}
+
+.xyz div .vc-a {
+    position: relative;
+    top: 80px ;
+    left: -285px;
+    font-size: 15px;
+    align-items: flex-start;
+    display: flex;
+    color: darkgray;
+}
+
+.xyz div .vc-b {
+    position: relative;
+    top: 80px ;
+    left: -305px;
+    font-size: 15px;
+    align-items: flex-start;
+    display: flex;
+    color: darkgray;
+}
+
+.xyz .pic-1 .ab-1 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 40px;
+    color: rgb(214, 201, 9)
+}
+    
+.xyz .pic-2 .ab-2 {
+    position: absolute;
+    top: 44%;
+    right: 5%;
+    font-size: 40px;
+    color: rgb(214, 201, 9)
+}
+    
+.xyz .pic-3 .ab-3 {
+    position: absolute;
+    top: 84%;
+    right: 5%;
+    font-size: 40px;
+    color: rgb(214, 201, 9)
+}
+    
+
+
+
+
+
+
+
+.pro {
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    background-color: none;
+    bottom: -165%;
+    z-index: 12;
+    left: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+.pro > div {
+    background-color: rgb(57, 64, 80);
+    width: 390px;
+    margin: 15px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+    height: 300px;
+}
+
+.pro p {
+    font-size: 20px;
+    line-height: 30px;
+    color:darkgray;
+}
+
+.pro  p {
+    position: relative;
+    top: 30%;
+    float: left;
+    margin-left: 30px;
+}
+
+.pro span {
+    position: relative;
+    top: 40%;
+    float: left;
+    margin-left: -55px;
+}
+
+.pro-1 div, .pro-2 div, .pro-3 div {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(38, 39, 54);
+    position: relative;
+    top: 10%;
+    float: left;
+    margin-left: 30px;
+}
+
+
+.pro-1 i {
+    position: relative;
+    font-size: 28px;
+    top: 14px;
+    left: 14px;
+    color: rgb(214, 201, 9);
+}
+
+
+.pro-2 i {
+    position: relative;
+    font-size: 25px;
+    top: 16px;
+    left: 14px;
+    color: rgb(214, 201, 9);
+}
+
+.pro-3 i {
+    position: relative;
+    font-size: 25px;
+    top: 15px;
+    left: 20px;
+    color: rgb(214, 201, 9);
+}
